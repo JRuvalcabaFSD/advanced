@@ -3,7 +3,11 @@ import javascriptLogo from './javascript.svg';
 import { environmentComponent } from './concepts/01-environments';
 // import { callbacksComponent } from './concepts/02-Callbacks';
 // import { promisesComponent } from './concepts/03-promises';
-import { promisesRaceComponent } from './concepts/04-promises-race';
+// import { promisesRaceComponent } from './concepts/04-promises-race';
+// import { asyncComponent } from './concepts/05-async';
+// import { asyncAwaitComponent } from './concepts/06-Async-Await';
+// import { asyncAwaitComponent2 } from './concepts/07-async-await';
+import { forAwaitComponent } from './concepts/08-for-await';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -21,4 +25,4 @@ document.querySelector('#app').innerHTML = `
 `;
 const element = document.querySelector('.card');
 
-promisesRaceComponent(element);
+forAwaitComponent(element);

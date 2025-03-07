@@ -1,7 +1,9 @@
 import './style.css';
 import javascriptLogo from './javascript.svg';
 import { environmentComponent } from './concepts/01-environments';
-import { callbacksComponent } from './concepts/02-Callbacks';
+// import { callbacksComponent } from './concepts/02-Callbacks';
+// import { promisesComponent } from './concepts/03-promises';
+import { promisesRaceComponent } from './concepts/04-promises-race';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -19,4 +21,4 @@ document.querySelector('#app').innerHTML = `
 `;
 const element = document.querySelector('.card');
 
-callbacksComponent(element);
+promisesRaceComponent(element);

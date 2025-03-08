@@ -7,7 +7,9 @@ import { environmentComponent } from './concepts/01-environments';
 // import { asyncComponent } from './concepts/05-async';
 // import { asyncAwaitComponent } from './concepts/06-Async-Await';
 // import { asyncAwaitComponent2 } from './concepts/07-async-await';
-import { forAwaitComponent } from './concepts/08-for-await';
+// import { forAwaitComponent } from './concepts/08-for-await';
+// import { generetionFunctionsComponent } from './concepts/09-generetion-functions';
+import { generatorAsyncComponent } from './concepts/10-generator-async';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -25,4 +27,4 @@ document.querySelector('#app').innerHTML = `
 `;
 const element = document.querySelector('.card');
 
-forAwaitComponent(element);
+generatorAsyncComponent(element);
